@@ -1,0 +1,24 @@
+.chessboard {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+  }
+  
+  .white {
+    background-color: #fff;
+  }
+  
+  .black {
+    background-color: #000;
+  }
+  
